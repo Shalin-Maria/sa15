@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('images/world-map.jpg'); background-size: cover; background-position: center;">
+    <header>
+        <h1>My Travel Journal</h1>
+
+    </header>
+
+    <main>
+        <h2>Travel Timeline:</h2>
+        <p>Click the dates to view</p>
+        <ul class="timeline">
+          <li class="timeline-item" data-destination="Paris">
+            <span class="timeline-date">March 7, 2015</span>
+            <h3>France</h3>
+          </li>
+          <li class="timeline-item" data-destination="Florence">
+            <span class="timeline-date">May 15, 2017</span>
+            <h3>Italy</h3>
+          </li>
+          <li class="timeline-item" data-destination="Dubai">
+            <span class="timeline-date">May 20, 2019</span>
+            <h3>UAE</h3>
+          </li>
+        </ul>
+
+        <div class="destination-info hidden">
+          <h2>Destination Details</h2>
+          <p class="destination-description"></p>
+          <img src="" alt="" class="destination-image">
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
